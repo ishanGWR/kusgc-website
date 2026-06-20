@@ -1,5 +1,5 @@
 import AnimatedOrb from "./AnimatedOrb";
-
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 pt-20 text-center bg-black overflow-hidden">
@@ -30,13 +30,16 @@ export default function Hero() {
 
         {/* Buttons with Neon Hover States */}
         <div className="mt-10 flex flex-wrap justify-center gap-6">
+        <Link href="/join">
           <button className="rounded-full bg-white px-8 py-3 text-black font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.6)]">
             Join the Council
           </button>
-
-          <button className="rounded-full border border-cyan-500/50 bg-cyan-950/30 px-8 py-3 text-cyan-50 backdrop-blur-md transition-all duration-300 hover:bg-cyan-500/20 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.5)]">
-            Explore Events
-          </button>
+        </Link>
+          <Link href="/events">
+            <button className="rounded-full border border-cyan-500/50 bg-cyan-950/30 px-8 py-3 text-cyan-50 backdrop-blur-md transition-all duration-300 hover:bg-cyan-500/20 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.5)]">
+              Explore Events
+            </button>
+          </Link>
         </div>
 
       </div>

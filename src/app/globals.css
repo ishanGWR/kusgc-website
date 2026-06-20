@@ -60,3 +60,27 @@ body {
 .animation-delay-6000 {
   animation-delay: 6s;
 }
+
+/* --- CUSTOM SPLASH SCREEN ANIMATIONS --- */
+
+#splash-screen {
+  /* Stays visible for 2 seconds, then fades out over 0.5s */
+  animation: fadeOutSplash 2.5s ease-in-out forwards;
+}
+
+.splash-bar-fill {
+  /* Fills the bar smoothly from 0% to 100% */
+  animation: fillLoadingBar 1.8s ease-out forwards;
+}
+
+@keyframes fillLoadingBar {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+@keyframes fadeOutSplash {
+  0% { opacity: 1; visibility: visible; }
+  80% { opacity: 1; visibility: visible; }
+  99% { opacity: 0; visibility: hidden; }
+  100% { opacity: 0; visibility: hidden; display: none; z-index: -1; }
+}

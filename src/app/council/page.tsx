@@ -17,15 +17,15 @@ const councilData = [
     rows: [
       [
         // EXAMPLE: Add the 'image' property exactly like this when you have their photo
-        { role: "President", name: "Arya Soni", dept: "UIT", image: "/council/arya.jpg" }
+        { role: "President", name: "Arya Soni", dept: "UIT", image: "/council/arya.jpg", insta: "arya_soni_official" }
       ],
       [
-        { role: "Vice President I", name: "Zeel Dewasi", dept: "UWSL", image: "/council/zeel.jpg" },
-        { role: "Vice President II", name: "Rhytm Gupta", dept: "UID", image: "/council/rhythm.jpg" }
+        { role: "Vice President ", name: "Zeel Dewasi", dept: "UWSL", image: "/council/zeel.jpg" },
+        { role: "Vice President ", name: "Rhytm Gupta", dept: "UID", image: "/council/rhythm.jpg" }
       ],
       [
-        { role: "Secretary I", name: "Sanskar Shinde", dept: "UID", image: "/council/sanskar.jpg" },
-        { role: "Secretary II", name: "Vanshika Choudhary", dept: "UWSL", image: "/council/vanshika1.jpg" }
+        { role: "Secretary ", name: "Sanskar Shinde", dept: "UID", image: "/council/sanskar.jpg" },
+        { role: "Secretary ", name: "Vanshika Choudhary", dept: "UWSL", image: "/council/vanshika1.jpg" }
       ]
     ]
   },
@@ -34,22 +34,22 @@ const councilData = [
     hideHeading: false, 
     rows: [
       [
-        { role: "Public Relations Officer I", name: "Gopesh Jha", dept: "UIT", image: "/council/gopesh.jpg" },
-        { role: "Public Relations Officer II", name: "Jay Malu", dept: "UIT", image: "/council/jay.jpg" },
-        { role: "Core Coordinator I", name: "Dhwanit Shah", dept: "UIM", image: "/council/dhwanit.jpg" },
-        { role: "Core Coordinator II", name: "Dev Vyas", dept: "UWSL", image: "/council/devc.jpg" },
-        { role: "Treasurer I", name: "Dev Gadhvi", dept: "UIT", image: "/council/dev.jpg" },
-        { role: "Treasurer II", name: "Parth Patel", dept: "UIM", image: "/council/parth.jpg" },
-        { role: "NCC/NSS Head I", name: "Vipul Singh Adhikari", dept: "UIT", image: "/council/vipul.jpg" },
-        { role: "NCC/NSS Head II", name: "Vansh Dodiya", dept: "UIT", image: "/council/vansh1.jpg" },
-        { role: "Marketing Head I", name: "Vanshika Aggarwal", dept: "KSD", image: "/council/vanshika.jpg" },
-        { role: "Marketing Head II", name: "Daisy Gupta", dept: "UID", image: "/council/daisy.jpg" },
-        { role: "Head CSR I", name: "Keval Ramani", dept: "UIT", image: "/council/keval.jpg" },
-        { role: "Head CSR II", name: "Ananya Sharma", dept: "UID", image: "/council/ananya.jpg" },
-        { role: "Student Grievance Heads I", name: "Kashak Agarwal", dept: "UWSL", image: "/council/kashak.jpg" },
-        { role: "Student Grievance Heads II", name: "Paras Bharadiya", dept: "UIT", image: "/council/paras.jpg" },
-        { role: "Head KCEIL I", name: "Kushagra Dave", dept: "UIM", image: "/council/kushagra.jpg" },
-        { role: "Head KCEIL II", name: "Neel Tailor", dept: "UIM", image: "/council/neel.jpg" },
+        { role: "Public Relations Officer ", name: "Gopesh Jha", dept: "UIT", image: "/council/gopesh.jpg" },
+        { role: "Public Relations Officer ", name: "Jay Malu", dept: "UIT", image: "/council/jay.jpg" },
+        { role: "Student Grievance Heads ", name: "Kashak Agarwala", dept: "UWSL", image: "/council/kashak.jpg" },
+        { role: "Student Grievance Heads", name: "Paras Bharadiya", dept: "UIT", image: "/council/paras.jpg" },
+        { role: "Core Coordinator ", name: "Dhwanit Shah", dept: "UIM", image: "/council/dhwanit.jpg" },
+        { role: "Core Coordinator ", name: "Dev Vyas", dept: "UWSL", image: "/council/devc.jpg" },
+        { role: "Treasurer ", name: "Dev Gadhvi", dept: "UIT", image: "/council/dev.jpg" },
+        { role: "Treasurer ", name: "Parth Patel", dept: "UIM", image: "/council/parth.jpg" },
+        { role: "NCC/NSS Head ", name: "Vipul Singh Adhikari", dept: "UIT", image: "/council/vipul.jpg" },
+        { role: "NCC/NSS Head ", name: "Vansh Dodiya", dept: "UIT", image: "/council/vansh1.jpg" },
+        { role: "Marketing Head ", name: "Vanshika Aggarwal", dept: "KSD", image: "/council/vanshika.jpg" },
+        { role: "Marketing Head ", name: "Daisy Gupta", dept: "UID", image: "/council/daisy.jpg" },
+        { role: "Head CSR ", name: "Keval Ramani", dept: "UIT", image: "/council/keval.jpg" },
+        { role: "Head CSR ", name: "Ananya Sharma", dept: "UID", image: "/council/ananya.jpg" },
+        { role: "Head KCEIL", name: "Kushagra Dave", dept: "UIM", image: "/council/kushagra.jpg" },
+        { role: "Head KCEIL", name: "Neel Tailor", dept: "UIM", image: "/council/neel.jpg" },
       ]
     ]
   },
@@ -59,31 +59,31 @@ const councilData = [
     rows: [
       [
         // EXAMPLE: Added your photo path here!
-        { role: "Tech Head I", name: "Ishan Chouhan", dept: "UIT", image: "/council/ishan.jpg" },
-        { role: "Tech Head II", name: "Maun", dept: "UIT", image: "/council/maun.jpg" },
-        { role: "Operation I", name: "Maahi Agarwal", dept: "UID", image: "/council/maahi.jpg" },
-        { role: "Operation II", name: "Vanshika Gupta", dept: "UID", image: "/council/vanshikag.jpg" },
-        { role: "Creative I", name: "Kanishk rathi", dept: "UID", image: "/council/kanishk.jpg" },
-        { role: "Creative II", name: "Amatrra Adal sengupta", dept: "UID", image: "/council/amatrra.jpg" },
-        { role: "Communication I", name: "Tanya Desai", dept: "UIM", image: "/council/tanya.jpg" },
-        { role: "Communication II", name: "Ujjval Thakkar", dept: "UIT", image: "/council/ujjval.jpg" },
-        { role: "Radio I", name: "Mansoor", dept: "UIT", image: "/council/mansoor.jpg" },
-        { role: "Radio II", name: "Sehaj", dept: "UID", image: "/council/sehaj.jpg" },
-        { role: "Nazariya I", name: "Marmik Patel", dept: "UIT", image: "/council/marmik.jpg" },
-        { role: "Nazariya II", name: "Kushali Bhagat", dept: "UID", image: "/council/kushali.jpg" },
-        { role: "Digital Outreach I", name: "Johannica Flora", dept: "UID", image: "/council/johannica.jpg" },
-        { role: "Digital Outreach II", name: "Dhani Padmani", dept: "UID", image: "/council/dhani.jpg" },
-        { role: "Academics I", name: "Mary Krissana Hashley", dept: "UID", image: "/council/mary.jpg" },
-        { role: "Academics II", name: "Shashwat Choudhary", dept: "UIT", image: "/council/shashwat.jpg" },
-        { role: "Alumni I", name: "Shatakshi kapoor", dept: "UID", image: "/council/shatakshi.jpg" },
-        { role: "Alumni II", name: "Mehul", dept: "UIT", image: "/council/mehul.jpg" },
+        { role: "Tech ", name: "Ishan Chouhan", dept: "UIT", image: "/council/ishan.jpg", insta:"ishann_412" },
+        { role: "Tech  ", name: "Maun", dept: "UIT", image: "/council/maun.jpg" },
+        { role: "Operation ", name: "Maahi Agarwal", dept: "UID", image: "/council/maahi.jpg" },
+        { role: "Operation ", name: "Vanshika Gupta", dept: "UID", image: "/council/vanshikag.jpg" },
+        { role: "Creative ", name: "Kanishk rathi", dept: "UID", image: "/council/kanishk.jpg" },
+        { role: "Creative ", name: "Amatrra Adal sengupta", dept: "UID", image: "/council/amatrra.jpg" },
+        { role: "Communication ", name: "Tanya Desai", dept: "UIM", image: "/council/tanya.jpg" },
+        { role: "Communication ", name: "Ujjval Thakkar", dept: "UIT", image: "/council/ujjval.jpg" },
+        { role: "Radio ", name: "Mansoor", dept: "UIT", image: "/council/mansoor.jpg" },
+        { role: "Radio ", name: "Sehaj", dept: "UID", image: "/council/sehaj.jpg" },
+        { role: "Nazariya ", name: "Marmik Patel", dept: "UIT", image: "/council/marmik.jpg" },
+        { role: "Nazariya ", name: "Kushali Bhagat", dept: "UID", image: "/council/kushali.jpg" },
+        { role: "Digital Outreach ", name: "Johannica Flora", dept: "UID", image: "/council/johannica.jpg" },
+        { role: "Digital Outreach ", name: "Dhani Padmani", dept: "UID", image: "/council/dhani.jpg" },
+        { role: "Academics ", name: "Mary Krissana Hashley", dept: "UID", image: "/council/mary.jpg" },
+        { role: "Academics ", name: "Shashwat Choudhary", dept: "UIT", image: "/council/shashwat.jpg" },
+        { role: "Alumni ", name: "Shatakshi kapoor", dept: "UID", image: "/council/shatakshi.jpg" },
+        { role: "Alumni ", name: "Mehul", dept: "UIT", image: "/council/mehul.jpg" },
         { role: "HOS", name: "Lakshit gupta", dept: "UID", image: "/council/lakshit.jpg" },
-        { role: "Sports I", name: "Jinal", dept: "UIT", image: "/council/jinal.jpg" },
-        { role: "Sports II", name: "Himanshu Kumar", dept: "UWSL", image: "/council/himanshu.jpg" },
-        { role: "HTWF I", name: "Avadh goswami", dept: "UIT", image: "/council/avadh.jpg" },
-        { role: "HTWF II", name: "Bhavya Metha", dept: "UIT", image: "/council/bhavya.jpg" },
-        { role: "Culturals I", name: "Shambhavi Huddar", dept: "UID", image: "/council/shambhavi.jpg" },
-        { role: "Culturals II", name: "Sahana Iyer", dept: "UID", image: "/council/sahana.jpg" },
+        { role: "Sports ", name: "Jinal", dept: "UIT", image: "/council/jinal.jpg" },
+        { role: "Sports ", name: "Himanshu Kumar", dept: "UWSL", image: "/council/himanshu.jpg" },
+        { role: "HTWF ", name: "Avadh goswami", dept: "UIT", image: "/council/avadh.jpg" },
+        { role: "HTWF ", name: "Bhavya Metha", dept: "UIT", image: "/council/bhavya.jpg" },
+        { role: "Culturals ", name: "Shambhavi Huddar", dept: "UID", image: "/council/shambhavi.jpg" },
+        { role: "Culturals ", name: "Sahana Iyer", dept: "UID", image: "/council/sahana.jpg" },
       ]
     ]
   },
@@ -92,17 +92,17 @@ const councilData = [
     hideHeading: false,
     rows: [
       [
-        { role: "UID I", name: "Bhoomi Rajhans", dept: "UID", image: "/council/bhoomi.jpg" },
-        { role: "UID II", name: "Simanthani wable", dept: "UID", image: "/council/simanthani.jpg" },
-        { role: "UID III", name: "Isha Chopra", dept: "UID", image: "/council/isha.jpg" },
-        { role: "UIT I", name: "Sejpalsinh Rayjada", dept: "UIT", image: "/council/sejpalsinh.jpg" },
-        { role: "UIT II", name: "Vansh Thakkar", dept: "UIT", image: "/council/vansh.jpg" },
-        { role: "UIT III", name: "Jugal Prajapati", dept: "UIT", image: "/council/jugal.jpg" },
-        { role: "UIM I", name: "Milan desai", dept: "UIM", image: "/council/milan.jpg" },
-        { role: "UIM II", name: "Smit Patel", dept: "UIM", image: "/council/smit.jpg" },
-        { role: "UWSL I", name: "Krish Patel", dept: "UWSL", image: "/council/krish.jpg" },
-        { role: "UWSL II", name: "Avantika Dhanwani", dept: "UWSL", image: "/council/avantika.jpg" },
-        { role: "KSD I", name: "Aarva jamadar", dept: "KSD", image: "/council/aarva.jpg" },
+        { role: "UID ", name: "Bhoomi Rajhans", dept: "UID", image: "/council/bhoomi.jpg" },
+        { role: "UID ", name: "Simanthani wable", dept: "UID", image: "/council/simanthani.jpg" },
+        { role: "UID ", name: "Isha Chopra", dept: "UID", image: "/council/isha.jpg" },
+        { role: "UIT ", name: "Sejpalsinh Rayjada", dept: "UIT", image: "/council/sejpalsinh.jpg" },
+        { role: "UIT ", name: "Vansh Thakkar", dept: "UIT", image: "/council/vansh.jpg" },
+        { role: "UIT ", name: "Jugal Prajapati", dept: "UIT", image: "/council/jugal.jpg" },
+        { role: "UIM ", name: "Milan desai", dept: "UIM", image: "/council/milan.jpg" },
+        { role: "UIM ", name: "Smit Patel", dept: "UIM", image: "/council/smit.jpg" },
+        { role: "UWSL ", name: "Krish Patel", dept: "UWSL", image: "/council/krish.jpg" },
+        { role: "UWSL ", name: "Avantika Dhanwani", dept: "UWSL", image: "/council/avantika.jpg" },
+        { role: "KSD ", name: "Aarva jamadar", dept: "KSD", image: "/council/aarva.jpg" },
       ]
     ]
   }
@@ -126,7 +126,7 @@ export default function CouncilPage() {
         {/* Page Header */}
         <section className="relative z-10 pt-40 pb-16 px-6 text-center max-w-4xl mx-auto">
           <p className="mb-4 text-sm uppercase tracking-[0.35em] text-cyan-300 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
-            Meet the Leaders
+            Meet the Leaders of 2K26
           </p>
           <h1 className="text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg text-white">
             The Student
@@ -192,16 +192,31 @@ export default function CouncilPage() {
                         </div>
 
                         {/* 2. Overlapping Name Plate */}
-                        <div className="relative z-10 -mt-6 flex flex-col items-center justify-center w-[110%] bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 p-[2px] [clip-path:polygon(15px_0,calc(100%-15px)_0,100%_50%,calc(100%-15px)_100%,15px_100%,0_50%)] shadow-2xl">
-                          <div className="w-full bg-black/90 py-3 px-2 text-center [clip-path:polygon(14px_0,calc(100%-14px)_0,100%_50%,calc(100%-14px)_100%,14px_100%,0_50%)]">
-                            <h2 className="text-xl font-black uppercase tracking-wider text-white drop-shadow-md truncate w-full">
-                              {member.name}
-                            </h2>
-                            <p className="text-xs text-zinc-400 font-medium mt-0.5">
-                              @{getHandle(member.name, member.dept)}
-                            </p>
-                          </div>
-                        </div>
+                        {/* 2. Overlapping Name Plate */}
+<div className="relative z-10 -mt-6 flex flex-col items-center justify-center w-[110%] bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 p-[2px] [clip-path:polygon(15px_0,calc(100%-15px)_0,100%_50%,calc(100%-15px)_100%,15px_100%,0_50%)] shadow-2xl">
+  <div className="w-full bg-black/90 py-3 px-2 text-center [clip-path:polygon(14px_0,calc(100%-14px)_0,100%_50%,calc(100%-14px)_100%,14px_100%,0_50%)]">
+    <h2 className="text-xl font-black uppercase tracking-wider text-white drop-shadow-md truncate w-full">
+      {member.name}
+    </h2>
+    
+    {/* INSTAGRAM LOGIC */}
+    {member.insta ? (
+      <a 
+        href={`https://instagram.com/${member.insta}`} 
+        target="_blank" 
+        rel="noreferrer"
+        className="flex items-center justify-center gap-1.5 text-xs text-cyan-400 font-bold hover:text-white transition-colors mt-1"
+      >
+        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.168.053 1.8.252 2.223.417.561.217.962.476 1.382.896.42.42.679.821.896 1.382.165.423.364 1.055.417 2.223.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.053 1.168-.252 1.8-.417 2.223-.217.561-.476.962-.896 1.382-.42.42-.821.679-1.382.896-.423.165-1.055.364-2.223.417-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.168-.053-1.8-.252-2.223-.417-.561-.217-.962-.476-1.382-.896-.42-.42-.679-.821-.896-1.382-.165-.423-.364-1.055-.417-2.223-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.053-1.168.252-1.8.417-2.223.217-.561.476-.962.896-1.382.42-.42.821-.679 1.382-.896.423-.165 1.055-.364 2.223-.417 1.266-.058 1.646-.07 4.85-.07m0-2.163c-3.259 0-3.667.014-4.947.072-1.277.058-2.148.261-2.91.558-.787.305-1.455.714-2.126 1.385-.671.671-1.08 1.339-1.385 2.126-.297.762-.5 1.633-.558 2.91-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.058 1.277.261 2.148.558 2.91.305.787.714 1.455 1.385 2.126.671.671 1.339 1.08 2.126 1.385.762.297 1.633.5 2.91.558 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.277-.058 2.148-.261 2.91-.558.787-.305 1.455-.714 2.126-1.385.671-.671 1.08-1.339 1.385-2.126.297-.762.5-1.633.558-2.91.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.058-1.277-.261-2.148-.558-2.91-.305-.787-.714-1.455-1.385-2.126-.671-.671-1.339-1.08-2.126-1.385-.762-.297-1.633-.5-2.91-.558-.787-.058-1.28-.072-4.947-.072zM12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.209-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        @{member.insta}
+      </a>
+    ) : (
+      <p className="text-xs text-zinc-600 font-medium mt-1">
+        @{getHandle(member.name, member.dept)}
+      </p>
+    )}
+  </div>
+</div>
 
                         {/* 3. Role Plate */}
                         <div className="mt-5 w-[90%] flex flex-col items-center justify-center border border-white/10 bg-black/80 px-4 py-3 [clip-path:polygon(12px_0,calc(100%-12px)_0,100%_12px,100%_calc(100%-12px),calc(100%-12px)_100%,12px_100%,0_calc(100%-12px),0_12px)] transition-all duration-300 group-hover:border-white/30 group-hover:shadow-[0_0_20px_rgba(255,255,255,0.1)]">

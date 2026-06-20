@@ -111,7 +111,7 @@ export default function DepartmentsPage() {
           <h1 className="text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg text-white">
             Council
             <span className="block mt-2 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent pb-2 drop-shadow-[0_0_25px_rgba(59,130,246,0.6)]">
-              Departments
+              Committees
             </span>
           </h1>
           <p className="mt-6 text-lg text-zinc-400 max-w-2xl mx-auto">

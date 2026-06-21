@@ -41,7 +41,7 @@ const committeesData = [
     ],
     members: [
       { name: "Kavya patel",  image: "/commities/operation/Kavya.jpg", insta: "alex.codes" },
-      { name: "Piyush Pareek",  image: "/commities/operation/Piyush.jpg", insta: "alex.codes" },
+      { name: "Piyush Pareek",  image: "/commities/operation/Piyush.jpeg", insta: "alex.codes" },
       { name: "Maitri Gattani",  image: "/commities/operation/Maitri.jpg", insta: "alex.codes" },
       { name: "Samarsingh chavda",  image: "/commities/operation/Samarsingh.jpg", insta: "alex.codes" },
       { name: "Mehak Khetan",  image: "/commities/operation/Mehak.jpg", insta: "alex.codes" },
@@ -139,7 +139,7 @@ const committeesData = [
       { name: "Dhyana Parikh",  image: "/commities/do/Dhyana.jpg", insta: "alex.codes" },
       { name: "Nisha Kalyan ",  image: "/commities/do/Nisha.jpg", insta: "alex.codes" },
       { name: "Hitanshi Arora  ",  image: "/commities/do/Hitanshi.jpg", insta: "alex.codes" },
-      { name: "Gohel Bhavya",  image: "/commities/do/Gohel.jpg", insta: "alex.codes" },
+      { name: "Gohel Bhavya",  image: "/commities/do/Bhavy.jpg", insta: "alex.codes" },
       { name: "Rajvi Thakare ",  image: "/commities/do/Rajvi.jpg", insta: "alex.codes" },
       { name: "Saanvi govind ",  image: "/commities/do/Saanvi.jpg", insta: "alex.codes" },
       { name: "Devansi Chatrabhuj  ",  image: "/commities/do/Devansi.jpg", insta: "alex.codes" },
@@ -164,7 +164,7 @@ const committeesData = [
       { name: "Dhruveeka Gaurav  ",  image: "/commities/nazariya/Dhruveeka.jpg", insta: "alex.codes" },
       { name: "Shiv Gamit",  image: "/commities/nazariya/Shiv.jpg", insta: "alex.codes" },
       { name: "Aditya Talati",  image: "/commities/nazariya/Aditya.jpg", insta: "alex.codes" },
-      { name: "Anuska Rathore",  image: "/commities/nazariya/Anuska.jpg", insta: "alex.codes" },
+      { name: "Anushka Rathore",  image: "/commities/nazariya/Anushka.jpg", insta: "alex.codes" },
       { name: "Ashvi Ladani ",  image: "/commities/nazariya/Ashvi.jpg", insta: "alex.codes" },
       { name: "Hetvi Jesalpura",  image: "/commities/nazariya/Hetvi.jpg", insta: "alex.codes" },
       { name: "Hiya  Goyal",  image: "/commities/nazariya/Hiya.jpg", insta: "alex.codes" },
@@ -291,8 +291,8 @@ const committeesData = [
     heads: [{ name: "Sehaj Saluja", image: "/council/Sehaj.jpg", insta: "" },
             { name: "Mansoor Anas ", image: "/council/Mansoor.jpg", insta: "" }],
     members: [
-      { name: "Sara Gupta",  image: "/commities/radio/Sara.jpg", insta: "alex.codes" },
-      { name: "Krati Jain ",  image: "/commities/radio/Krati.jpg", insta: "alex.codes" }]
+      { name: "Sara Gupta",  image: "/commities/radio/Sara.jpg", insta: "sara.gupta2706" },
+      { name: "Krati Jain ",  image: "/commities/radio/Krati.jpg", insta: "krazy_komet_" }]
   }
 ];
 

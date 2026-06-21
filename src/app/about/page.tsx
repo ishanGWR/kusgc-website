@@ -10,7 +10,7 @@ const topLeadership = [
     name: "Mr. Ritesh Hada",
     role: "Chief Patron",
     title: "President, Karnavati University",
-    image: "/council/riteshsir.jpg", 
+    image: "/council/Riteshsir.jpg", 
     gradient: "from-amber-400 to-yellow-600",
     glow: "rgba(251, 191, 36, 0.4)",
   },
@@ -18,7 +18,7 @@ const topLeadership = [
     name: "Dr. Tariq Ali Saiyed",
     role: "Patron",
     title: "Registrar, Karnavati University",
-    image: "/council/tariqsir.jpg", 
+    image: "/council/Tariqsir.jpg", 
     gradient: "from-blue-400 to-cyan-600",
     glow: "rgba(56, 189, 248, 0.4)",
   }

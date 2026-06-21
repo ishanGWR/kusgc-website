@@ -20,12 +20,12 @@ const committeesData = [
             { name: "Maun Patel",  image: "/council/Maun.jpg", insta: "maun_patel" 
     }],
     members: [
-      { name: "Vadit Bhatti",  image: "/commities/tech/Vadit.jpg", insta: "alex.codes" },
-      { name: "Gayatri Raval",  image: "/commities/tech/Gayatri.jpg", insta: "alex.codes" },
-      { name: "Yug Mehta",  image: "/commities/tech/Yug.jpg", insta: "alex.codes" },
-      { name: "Harry Sijo",  image: "/commities/tech/Harry.jpg", insta: "alex.codes" },
-      { name: "Daksh Panchal",  image: "/commities/tech/Daksh.jpg", insta: "alex.codes" },
-      { name: "Rishi Patel",  image: "/commities/tech/Rishi.jpg", insta: "alex.codes" },     
+      { name: "Vadit Bhatti",  image: "/commities/Tech/Vadit.jpg", insta: "alex.codes" },
+      { name: "Gayatri Raval",  image: "/commities/Tech/Gayatri.jpg", insta: "alex.codes" },
+      { name: "Yug Mehta",  image: "/commities/Tech/Yug.jpg", insta: "alex.codes" },
+      { name: "Harry Sijo",  image: "/commities/Tech/Harry.jpg", insta: "alex.codes" },
+      { name: "Daksh Panchal",  image: "/commities/Tech/Daksh.jpg", insta: "alex.codes" },
+      { name: "Rishi Patel",  image: "/commities/Tech/Rishi.jpg", insta: "alex.codes" },     
     ]
   },
   {

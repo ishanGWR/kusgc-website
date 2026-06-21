@@ -1,7 +1,6 @@
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import AnimatedOrb from "@/app/components/AnimatedOrb";
-import { image } from "framer-motion/m";
 
 // Rotating neon themes for the dynamic cards
 const themes = [

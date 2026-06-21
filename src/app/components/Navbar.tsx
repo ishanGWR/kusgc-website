@@ -12,6 +12,7 @@ export default function Navbar() {
     { name: "Committees", href: "/departments" },
     { name: "Events", href: "/events" },
     { name: "Grievance", href: "/grievance" },
+    { name: "Gallery", href: "/gallery" },
   ];
 
   return (

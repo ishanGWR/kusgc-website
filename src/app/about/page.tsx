@@ -10,7 +10,7 @@ const topLeadership = [
     name: "Mr. Ritesh Hada",
     role: "Chief Patron",
     title: "President, Karnavati University",
-    image: "", // Add your photo path here, e.g., "/images/ritesh-hada.jpg"
+    image: "/council/riteshsir.jpg", 
     gradient: "from-amber-400 to-yellow-600",
     glow: "rgba(251, 191, 36, 0.4)",
   },
@@ -18,7 +18,7 @@ const topLeadership = [
     name: "Dr. Tariq Ali Saiyed",
     role: "Patron",
     title: "Registrar, Karnavati University",
-    image: "", 
+    image: "/council/tariqsir.jpg", 
     gradient: "from-blue-400 to-cyan-600",
     glow: "rgba(56, 189, 248, 0.4)",
   }
@@ -65,7 +65,8 @@ const ProfileCard = ({ person, isLarge = false }: { person: any, isLarge?: boole
         <img 
           src={person.image} 
           alt={person.name} 
-          className="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-overlay transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" 
+          /* FIXED: Removed opacity, mix-blend, and grayscale classes so the photo shows in its original colors */
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
         />
       ) : (
         <>

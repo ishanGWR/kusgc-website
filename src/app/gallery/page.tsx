@@ -7,7 +7,7 @@ import AnimatedOrb from "@/app/components/AnimatedOrb";
 
 // GALLERY DATA (Removed categories, added 8 items for perfect 4-column rows)
 const galleryData = [
-  { id: 1, src: "/gallery/1.jpg", title: "Annual Fest 2K25" },
+  { id: 1, src: "/event gallery/Fresher.jpg", title: "Fresher 2k24" },
   { id: 2, src: "/gallery/2.jpg", title: "Hackathon Kickoff" },
   { id: 3, src: "/gallery/3.jpg", title: "Inter-College Finals" },
   { id: 4, src: "/gallery/4.jpg", title: "EDM Night" },

@@ -35,13 +35,13 @@ const councilData = [
     rows: [
       [
         { role: "Public Relations Officer ", name: "Gopesh Jha", dept: "UIT", image: "/council/Gopesh.jpg", insta: "gopesh_008" },
-        { role: "Public Relations Officer ", name: "Jay Malu", dept: "UIT", image: "/council/Jay.jpg", insta: "" },
-        { role: "Student Grievance Heads ", name: "Kashak Agarwala", dept: "UWSL", image: "/council/Kashak.jpg", insta: "" },
+        { role: "Public Relations Officer ", name: "Jay Malu", dept: "UIT", image: "/council/Jay.jpg", insta: "jaymaluu" },
+        { role: "Student Grievance Heads ", name: "Kashak Agarwala", dept: "UWSL", image: "/council/Kashak.jpg", insta: "agxkashakk " },
         { role: "Student Grievance Heads", name: "Paras Bharadiya", dept: "UIT", image: "/council/Paras.jpg", insta: "paras_9_" },
         { role: "Core Coordinator ", name: "Dhwanit Shah", dept: "UIM", image: "/council/Dhwanit.jpg", insta: "Dhwanit_shah_10" },
         { role: "Core Coordinator ", name: "Dev Vyas", dept: "UWSL", image: "/council/Devc.jpg", insta: "devvyas_2116" },
         { role: "Treasurer ", name: "Dev Gadhvi", dept: "UIT", image: "/council/Dev.jpg", insta: "dev_gadhvi12" },
-        { role: "Treasurer ", name: "Parth Patel", dept: "UIM", image: "/council/Parth.jpg", insta: "" },
+        { role: "Treasurer ", name: "Parth Patel", dept: "UIM", image: "/council/Parth.jpg", insta: "parthh.93" },
         { role: "NCC/NSS Head ", name: "Vipul Singh Adhikari", dept: "UIT", image: "/council/Vipul.jpg", insta: "viishuu._.24" },
         { role: "NCC/NSS Head ", name: "Vansh Dodiya", dept: "UIT", image: "/council/Vansh.jpg", insta: "vansh._34" },
         { role: "Marketing Head ", name: "Vanshika Aggarwal", dept: "KSD", image: "/council/Vanshikam.jpg", insta: "vanshika_agrawal_08" },
@@ -49,7 +49,7 @@ const councilData = [
         { role: "Head CSR ", name: "Keval Ramani", dept: "UIT", image: "/council/Keval.jpg", insta: "" },
         { role: "Head CSR ", name: "Ananya Sharma", dept: "UID", image: "/council/Ananya.jpg", insta: "" },
         { role: "Head KCEIL", name: "Kushagra Dave", dept: "UIM", image: "/council/Kushagra.jpg", insta: "kushagradave2295" },
-        { role: "Head KCEIL", name: "Neel Tailor", dept: "UIM", image: "/council/Neel.jpg", insta: "" }
+        { role: "Head KCEIL", name: "Neel Tailor", dept: "UIM", image: "/council/Neel.jpg", insta: "Neel_NT" }
       ]
     ]
   },
@@ -60,19 +60,19 @@ const councilData = [
       [
         // EXAMPLE: Added your photo path here!
         { role: "Tech ", name: "Ishan Chouhan", dept: "UIT", image: "/council/Ishan.jpg", insta:"ishann_412" },
-        { role: "Tech  ", name: "Maun", dept: "UIT", image: "/council/Maun.jpg" ,insta:"" },
+        { role: "Tech  ", name: "Maun", dept: "UIT", image: "/council/Maun.jpg" ,insta:"maun_glorious" },
         { role: "Operation ", name: "Maahi Agarwal", dept: "UID", image: "/council/Maahi.jpg", insta:"maahi.agr" },
         { role: "Operation ", name: "Vanshika Gupta", dept: "UID", image: "/council/Vanshika.jpg", insta:"vanshikagupta.22" },
         { role: "Creative ", name: "Kanishk rathi", dept: "UID", image: "/council/Kanishk.jpg" ,insta:"" },
         { role: "Creative ", name: "Amatrra Adal sengupta", dept: "UID", image: "/council/Amatrra.jpg" ,insta:"" },
         { role: "Communication ", name: "Tanaya Desai", dept: "UIM", image: "/council/Tanaya.jpg" ,insta:"tanaya_desai14" },
         { role: "Communication ", name: "Ujjval Thakkar", dept: "UIT", image: "/council/Ujjval.jpg" ,insta:"ujjval6428" },
-        { role: "Radio ", name: "Mansoor", dept: "UIT", image: "/council/Mansoor.jpg" ,insta:"" },
+        { role: "Radio ", name: "Mansoor", dept: "UIT", image: "/council/Mansoor.jpg" ,insta:"mansoor_anas.23" },
         { role: "Radio ", name: "Sehaj", dept: "UID", image: "/council/Sehaj.jpg" ,insta:"sehajssaluja" },
         { role: "Nazariya ", name: "Marmik Patel", dept: "UIT", image: "/council/Marmik.jpg" ,insta:"mxrmik.27" },
         { role: "Nazariya ", name: "Kushali Bhagat", dept: "UID", image: "/council/Kushali.jpg" ,insta:"kushali_bhagat" },
         { role: "Digital Outreach ", name: "Johannica Flora", dept: "UID", image: "/council/Johannica.jpg" ,insta:"" },
-        { role: "Digital Outreach ", name: "Dhani Padmani", dept: "UID", image: "/council/Dhani.jpg" ,insta:"" },
+        { role: "Digital Outreach ", name: "Dhani Padmani", dept: "UID", image: "/council/Dhani.jpg" ,insta:"dhani1547" },
         { role: "Academics ", name: "Mary Krissana Hashley", dept: "UID", image: "/council/Mary.jpg" ,insta:"krisstastrophe__" },
         { role: "Academics ", name: "Shashwat Choudhary", dept: "UIT", image: "/council/Shashwat.jpg" ,insta:"shashwhatttf" },
         { role: "Alumni ", name: "Shatakshi kapoor", dept: "UID", image: "/council/Shatakshi.jpg" ,insta:"" },

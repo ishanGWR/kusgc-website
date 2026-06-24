@@ -9,12 +9,10 @@ import AnimatedOrb from "@/app/components/AnimatedOrb";
 const galleryData = [
   { id: 1, src: "/event gallery/Fresher.jpg", title: "Fresher 2k24" },
   { id: 2, src: "/event gallery/Holi.jpg", title: "Holi Celebration" },
-  { id: 3, src: "/event gallery/3.jpg", title: "Inter-College Finals" },
-  { id: 4, src: "/event gallery/4.jpg", title: "EDM Night" },
-  { id: 5, src: "/event gallery/5.jpg", title: "Stage Setup" },
-  { id: 6, src: "/event gallery/6.jpg", title: "Robotics Workshop" },
-  { id: 7, src: "/event gallery/7.jpg", title: "Trophy Ceremony" },
-  { id: 8, src: "/event gallery/8.jpg", title: "Fashion Show" },
+  { id: 3, src: "/event gallery/Coffe.jpg", title: "Coffe rave party" },
+  { id: 4, src: "/event gallery/Janmasthmi.jpg", title: "Janmasthmi Celebration" },
+  { id: 5, src: "/event gallery/Djnight.jpg", title: "Djnight" },
+  { id: 6, src: "/event gallery/KUGM.jpg", title: "KUGM" }
 ];
 
 export default function GalleryPage() {

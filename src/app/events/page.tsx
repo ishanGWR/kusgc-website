@@ -19,13 +19,13 @@ const featuredEvent = {
 
 // 2. The Inductions
 const inductions = [
-  { title: "UID Induction", status: "Welcome", category: "Design", description: "The official welcome for the Unitedworld Institute of Design freshers.", image: "Uid.jpg", gradient: "from-rose-400 to-pink-500", glow: "rgba(244, 63, 94, 0.4)" },
-  { title: "UWSL Induction", status: "Welcome", category: "Law", description: "The official welcome for the Unitedworld School of Law freshers.", image: "", gradient: "from-blue-400 to-indigo-500", glow: "rgba(59, 130, 246, 0.4)" },
-  { title: "UIM (BBA and MBA) Induction", status: "Welcome", category: "Management", description: "The official welcome for the Unitedworld Institute of Management BBA and MBA freshers.", image: "Uim.jpg", gradient: "from-emerald-400 to-teal-500", glow: "rgba(52, 211, 153, 0.4)" },
-  { title: "UICA Induction", status: "Welcome", category: "Communication", description: "The official welcome for the Unitedworld Institute of Communication & Advertising.", image: "", gradient: "from-purple-400 to-fuchsia-500", glow: "rgba(168, 85, 247, 0.4)" },
-  { title: "UIBS Induction", status: "Welcome", category: "Behavioral Studies", description: "The official welcome for the Unitedworld Institute of Behavioral Studies.", image: "", gradient: "from-cyan-400 to-blue-500", glow: "rgba(34, 211, 238, 0.4)" },
-  { title: "The Winchie Film School Induction", status: "Welcome", category: "Film", description: "The official welcome for the next generation of filmmakers at Winchie.", image: "", gradient: "from-red-400 to-rose-600", glow: "rgba(248, 113, 113, 0.4)" },
-  { title: "UIT (B.Tech) Induction", status: "Welcome", category: "Technology", description: "The official welcome for the Unitedworld Institute of Technology freshers.", image: "", gradient: "from-slate-400 to-zinc-600", glow: "rgba(148, 163, 184, 0.4)" },
+  { title: "UID Induction", status: "Welcome", category: "Design", description: "The official welcome for the Unitedworld Institute of Design freshers.", image: "/events/Uid.jpg", gradient: "from-rose-400 to-pink-500", glow: "rgba(244, 63, 94, 0.4)" },
+  { title: "UWSL Induction", status: "Welcome", category: "Law", description: "The official welcome for the Unitedworld School of Law freshers.", image: "/events/Uwsl.jpg", gradient: "from-blue-400 to-indigo-500", glow: "rgba(59, 130, 246, 0.4)" },
+  { title: "UIM (BBA and MBA) Induction", status: "Welcome", category: "Management", description: "The official welcome for the Unitedworld Institute of Management BBA and MBA freshers.", image: "/events/Uim.jpg", gradient: "from-emerald-400 to-teal-500", glow: "rgba(52, 211, 153, 0.4)" },
+  { title: "UICA Induction", status: "Welcome", category: "Communication", description: "The official welcome for the Unitedworld Institute of Communication & Advertising.", image: "/events/Uica.jpg", gradient: "from-purple-400 to-fuchsia-500", glow: "rgba(168, 85, 247, 0.4)" },
+  { title: "UIBS Induction", status: "Welcome", category: "Behavioral Studies", description: "The official welcome for the Unitedworld Institute of Behavioral Studies.", image: "/events/Uibs.jpg", gradient: "from-cyan-400 to-blue-500", glow: "rgba(34, 211, 238, 0.4)" },
+  { title: "The Winchie Film School Induction", status: "Welcome", category: "Film", description: "The official welcome for the next generation of filmmakers at Winchie.", image: "/events/Winchie.jpg", gradient: "from-red-400 to-rose-600", glow: "rgba(248, 113, 113, 0.4)" },
+  { title: "UIT (B.Tech) Induction", status: "Welcome", category: "Technology", description: "The official welcome for the Unitedworld Institute of Technology freshers.", image: "/events/UIT.jpg", gradient: "from-slate-400 to-zinc-600", glow: "rgba(148, 163, 184, 0.4)" },
 ];
 
 // 3. All Other Events

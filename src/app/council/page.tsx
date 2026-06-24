@@ -44,7 +44,7 @@ const councilData = [
         { role: "Treasurer ", name: "Parth Patel", dept: "UIM", image: "/council/Parth.jpg", insta: "parthh.93" },
         { role: "NCC/NSS Head ", name: "Vipul Singh Adhikari", dept: "UIT", image: "/council/Vipul.jpg", insta: "viishuu._.24" },
         { role: "NCC/NSS Head ", name: "Vansh Dodiya", dept: "UIT", image: "/council/Vansh.jpg", insta: "vansh._34" },
-        { role: "Marketing Head ", name: "Vanshika Agrawal", dept: "KSD", image: "/council/Vanshikam.jpg", insta: "vanshika_agrawal_08" },
+        { role: "Marketing Head ", name: "Vanshika Agrawal ", dept: "KSD", image: "/council/Vanshikam.jpg", insta: "vanshika_agrawal_08" },
         { role: "Marketing Head ", name: "Daisy Gupta", dept: "UID", image: "/council/Daisy.jpg", insta: "daisy.gupta_" },
         { role: "Head CSR ", name: "Keval Ramani", dept: "UIT", image: "/council/Keval.jpg", insta: "kev3reverie" },
         { role: "Head CSR ", name: "Ananya Sharma", dept: "UID", image: "/council/Ananya.jpg", insta: "Notsoocoolananya " },

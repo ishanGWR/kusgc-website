@@ -102,7 +102,7 @@ const committeesData = [
     borderColor: "border-fuchsia-400",
     shadowColor: "shadow-[0_0_15px_rgba(232,121,249,0.4)]",
     glow: "rgba(232, 121, 249, 0.5)",
-    heads: [{ name: "Kanishk Rathi", image: "/council/kanishk.jpg", insta: "kanishkrathi" },
+    heads: [{ name: "Kanishk Rathi", image: "/council/Kanishk.jpg", insta: "kanishkrathi" },
             { name: "Amatrra Aadal Sengupta ", image: "/council/Amatrra.jpg", insta: "23_amatrra_" }],
     members: [
       { name: "Priyanshu Pareek",  image: "/commities/creatives/Priyanshu.jpg", insta: "prii.shuu.1908" },
@@ -121,10 +121,10 @@ const committeesData = [
       { name: "Dhanvi Khandelwal",  image: "/commities/creatives/Dhanvi.jpg", insta: "dhanvi.khandelwal" },
       { name: "Suravi Choraria",  image: "/commities/creatives/Suravi.jpg", insta: "suravii.c" },
       { name: "Dhrithi Vuppalapati ",  image: "/commities/creatives/Dhrithi.jpg", insta: "dhrithivarmaa " },
-      { name: "Ronit Shroff",  image: "/commities/creatives/ronit.jpg", insta: "ronitxshroff" },
-      { name: "Saksham Mishra ",  image: "/commities/creatives/saksham.jpg", insta: "__saksham__mishra__" },
-      { name: "Janhavi Jadhav",  image: "/commities/creatives/janhavi.jpg", insta: "janhavijadhavv " },
-      { name: "Tanvi Patil",  image: "/commities/creatives/tanvi.jpg", insta: "tanvipatil722" }, ]
+      { name: "Ronit Shroff",  image: "/commities/creatives/Ronit.jpg", insta: "ronitxshroff" },
+      { name: "Saksham Mishra ",  image: "/commities/creatives/Saksham.jpg", insta: "__saksham__mishra__" },
+      { name: "Janhavi Jadhav",  image: "/commities/creatives/Janhavi.jpg", insta: "janhavijadhavv " },
+      { name: "Tanvi Patil",  image: "/commities/creatives/Tanvi.jpg", insta: "tanvipatil722" }, ]
   },
   {
     id: "outreach",

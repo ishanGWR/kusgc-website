@@ -60,7 +60,8 @@ const committeesData = [
       { name: "Henil Patel",  image: "/commities/operation/Henil.jpg", insta: "henil__1208" },
       { name: "Jaiveersingh Ratnoo",  image: "/commities/operation/Jaiveersingh.jpg", insta: "jaiveer_ratnoo" },
       { name: "Vanshika Bhardwaj",  image: "/commities/operation/Vanshika.jpg", insta: "vanshikabhardwaj_47" },
-      { name: "Priyansh Ravat",  image: "/commities/operation/Priyansh.jpg", insta: "priyansh_ravat_005" },  ]
+      { name: "Priyansh Ravat",  image: "/commities/operation/Priyansh.jpg", insta: "priyansh_ravat_005" },
+      { name: "Dhruvi sakhiya",  image: "/commities/operation/Dhruvi.jpg", insta: "dhruvi_patel_152" },  ]
   },
   {
     id: "cultural",
@@ -201,7 +202,7 @@ const committeesData = [
       { name: "Hitika Padia ",  image: "/commities/communication/Hitika.jpg", insta: "hitikapadia_" },
       { name: "Neerav Parikh ",  image: "/commities/communication/Neerav.jpg", insta: "neeravparikh" },
       { name: "Heeya Patel",  image: "/commities/communication/Heeya.jpg", insta: "heeyapatel__12" },
-      { name: "Dhruvi sakhiya",  image: "/commities/communication/Dhruvi.jpg", insta: "" },]
+      ]
   },
   {
     id: "sports",

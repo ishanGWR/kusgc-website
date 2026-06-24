@@ -8,13 +8,13 @@ import AnimatedOrb from "@/app/components/AnimatedOrb";
 // GALLERY DATA (Removed categories, added 8 items for perfect 4-column rows)
 const galleryData = [
   { id: 1, src: "/event gallery/Fresher.jpg", title: "Fresher 2k24" },
-  { id: 2, src: "/gallery/2.jpg", title: "Hackathon Kickoff" },
-  { id: 3, src: "/gallery/3.jpg", title: "Inter-College Finals" },
-  { id: 4, src: "/gallery/4.jpg", title: "EDM Night" },
-  { id: 5, src: "/gallery/5.jpg", title: "Stage Setup" },
-  { id: 6, src: "/gallery/6.jpg", title: "Robotics Workshop" },
-  { id: 7, src: "/gallery/7.jpg", title: "Trophy Ceremony" },
-  { id: 8, src: "/gallery/8.jpg", title: "Fashion Show" },
+  { id: 2, src: "/event gallery/Holi.jpg", title: "Holi Celebration" },
+  { id: 3, src: "/event gallery/3.jpg", title: "Inter-College Finals" },
+  { id: 4, src: "/event gallery/4.jpg", title: "EDM Night" },
+  { id: 5, src: "/event gallery/5.jpg", title: "Stage Setup" },
+  { id: 6, src: "/event gallery/6.jpg", title: "Robotics Workshop" },
+  { id: 7, src: "/event gallery/7.jpg", title: "Trophy Ceremony" },
+  { id: 8, src: "/event gallery/8.jpg", title: "Fashion Show" },
 ];
 
 export default function GalleryPage() {
@@ -62,7 +62,7 @@ export default function GalleryPage() {
           <div className="group relative w-full h-[50vh] md:h-[70vh] rounded-3xl overflow-hidden border border-white/10 mb-6 cursor-pointer shadow-[0_0_30px_rgba(34,211,238,0.1)] hover:shadow-[0_0_50px_rgba(34,211,238,0.3)] hover:border-cyan-500/50 transition-all duration-500">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
             <img 
-              src="/gallery/previous-council.jpg" 
+              src="/event gallery/Fresherx.jpg" 
               alt="Council 2K24 - 2K25" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               onError={(e) => { (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1523580494112-071dcb849ae4?q=80&w=2000&auto=format&fit=crop"; }}

@@ -30,7 +30,7 @@ const inductions = [
 
 // 3. All Other Events
 const allEvents = [
-  { title: "Freshers 2026", status: "Start of the Era", category: "Celebration", description: "The ultimate welcome to Karnavati University. Massive DJ sets, stunning visual installations, and the beginning of your greatest chapter.", image: "Fresher.jpg", gradient: "from-cyan-500 to-blue-600", glow: "rgba(34, 211, 238, 0.4)" },
+  { title: "Freshers 2026", status: "Start of the Era", category: "Celebration", description: "The ultimate welcome to Karnavati University. Massive DJ sets, stunning visual installations, and the beginning of your greatest chapter.", image: "Fresherx.jpg", gradient: "from-cyan-500 to-blue-600", glow: "rgba(34, 211, 238, 0.4)" },
   { title: "Ahmedabad Design Week", status: "Global Convention", category: "Design & Innovation", description: "A masterclass in aesthetics and functionality. Explore physical product design, UI/UX, and architectural marvels.", image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=800", gradient: "from-pink-500 to-rose-500", glow: "rgba(244, 63, 94, 0.4)" },
   { title: "KU Garba Mahotsav", status: "Cultural Phenomenon", category: "Festival", description: "The most vibrant night of the year. Traditional beats meet modern energy in an unforgettable celebration of dance and culture.", image: "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&q=80&w=800", gradient: "from-orange-500 to-amber-500", glow: "rgba(245, 158, 11, 0.4)" },
   { title: "Edge", status: "Stay Tuned", category: "Competition", description: "Push yourself to the absolute limit in this high-stakes campus showdown. Only the sharpest minds will dominate.", image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=800", gradient: "from-emerald-500 to-teal-400", glow: "rgba(16, 185, 129, 0.4)" },
@@ -41,7 +41,7 @@ const allEvents = [
   { title: "Ganesh Chaturthi", status: "Cultural", category: "Festival", description: "Welcoming the Vighnaharta with dhol, dance, and a grand campus procession.", image: "", gradient: "from-yellow-400 to-amber-500", glow: "rgba(250, 204, 21, 0.4)" },
   { title: "Durga Pooja", status: "Cultural", category: "Festival", description: "Pandal hopping, traditional dhunuchi naach, and celebrating the divine feminine.", image: "", gradient: "from-red-500 to-rose-600", glow: "rgba(239, 68, 68, 0.4)" },
   { title: "Uttrayan", status: "Cultural", category: "Festival", description: "Kite flying festival on the campus grounds with music, food, and endless skies.", image: "", gradient: "from-sky-400 to-blue-500", glow: "rgba(56, 189, 248, 0.4)" },
-  { title: "Holi 2027", status: "Cultural", category: "Festival", description: "The festival of colors. Organic gulal, water fights, rain dance, and DJ sets.", image: "", gradient: "from-pink-500 to-rose-500", glow: "rgba(236, 72, 153, 0.4)" },
+  { title: "Holi 2027", status: "Cultural", category: "Festival", description: "The festival of colors. Organic gulal, water fights, rain dance, and DJ sets.", image: "/events/Holi.jpg",  },
   { title: "National Days & Festivals", status: "Ongoing", category: "Observation", description: "Celebrating the diverse tapestry of Indian culture throughout the academic year.", image: "", gradient: "from-zinc-400 to-zinc-600", glow: "rgba(161, 161, 170, 0.4)" },
   { title: "Chatra Niti Aayog / Legal Eagle", status: "Coming Soon", category: "Summit", description: "A clash of intellects. Debate policy, explore legal frameworks, and simulate governance.", image: "", gradient: "from-indigo-500 to-purple-600", glow: "rgba(99, 102, 241, 0.4)" },
   { title: "The Design Masala / Out of Syllabus", status: "Coming Soon", category: "Creative", description: "Step outside the textbook. A showcase of unconventional design and out-of-the-box thinking.", image: "", gradient: "from-pink-500 to-orange-400", glow: "rgba(236, 72, 153, 0.4)" },
@@ -52,9 +52,7 @@ const allEvents = [
 const EventCard = ({ event }: { event: any }) => (
   <div 
     className="group relative flex flex-col rounded-3xl border border-white/10 bg-zinc-900/50 backdrop-blur-md overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:border-white/30 h-[420px]"
-    // Ambient constant glow applied here:
     style={{ boxShadow: `0 0 15px ${event.glow}` }}
-    // Hover intensifies the glow:
     onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 15px 50px ${event.glow}`}
     onMouseLeave={(e) => e.currentTarget.style.boxShadow = `0 0 15px ${event.glow}`}
   >
@@ -75,9 +73,7 @@ const EventCard = ({ event }: { event: any }) => (
         </span>
       </div>
 
-      <div className="relative z-10 w-12 h-12 rounded-full border-2 border-white/30 backdrop-blur-md flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:scale-110">
-        <div className="w-4 h-4 bg-white rounded-sm rotate-45 opacity-80"></div>
-      </div>
+      {/* SYMBOL REMOVED FROM HERE */}
     </div>
 
     <div className="p-8 flex flex-col flex-grow relative z-10 bg-gradient-to-b from-transparent to-black/80">
@@ -134,9 +130,7 @@ export default function EventsPage() {
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-30 mix-blend-overlay"></div>
                 )}
                 
-                <div className="relative z-10 w-32 h-32 border-4 border-white/30 rounded-full flex items-center justify-center backdrop-blur-md transition-transform duration-700 group-hover:scale-110 group-hover:rotate-12">
-                   <div className="w-16 h-16 bg-white shadow-[0_0_30px_white] [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]"></div>
-                </div>
+                {/* SYMBOL REMOVED FROM HERE */}
               </div>
 
               <div className="w-full lg:w-1/2 flex flex-col justify-center">

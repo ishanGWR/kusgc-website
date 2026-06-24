@@ -1,42 +1,62 @@
-import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
     const { name, enrollment_number, email, grievance_category, message } = body;
 
-    // Configure the email transporter using environment variables
+    // Set up Nodemailer with your Grievance email credentials from .env.local
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: "gmail",
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_APP_PASSWORD,
+        user: process.env.GRIEVANCE_EMAIL,
+        pass: process.env.GRIEVANCE_APP_PASS,
       },
     });
 
-    // Format the email that the council will receive
+    // Format the email that will arrive in the inbox
     const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER, // Sends it to your own inbox
-      replyTo: email, // Clicking "Reply" will reply directly to the student
-      subject: `🚨 [Confidential Grievance] ${grievance_category}`,
+      from: process.env.GRIEVANCE_EMAIL,
+      to: process.env.GRIEVANCE_EMAIL, // Sends the email to the grievance inbox
+      replyTo: email, // Allows you to click "Reply" and email the student back directly
+      subject: `🚨 New Grievance Report: ${grievance_category}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; padding: 20px; border: 1px solid #e5e7eb; border-radius: 10px;">
-          <h2 style="color: #ef4444; border-bottom: 2px solid #ef4444; padding-bottom: 10px;">New Grievance Submitted</h2>
+          <h2 style="color: #ef4444; margin-bottom: 20px;">New Grievance Submitted</h2>
           
-          <p><strong>Category:</strong> ${grievance_category}</p>
-          <p><strong>Student Name:</strong> ${name || 'Confidential / Not Provided'}</p>
-          <p><strong>Enrollment No:</strong> ${enrollment_number || 'Confidential / Not Provided'}</p>
-          <p><strong>Reply Email:</strong> ${email}</p>
-          
-          <h3 style="margin-top: 30px; color: #374151;">Grievance Details:</h3>
-          <div style="background-color: #f3f4f6; padding: 15px; border-radius: 8px; color: #1f2937; white-space: pre-wrap;">
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+            <tr>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb; width: 150px;"><strong>Name:</strong></td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;">${name}</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;"><strong>Enrollment No:</strong></td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;">${enrollment_number}</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;"><strong>Student Email:</strong></td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;">
+                <a href="mailto:${email}" style="color: #3b82f6;">${email}</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;"><strong>Category:</strong></td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e5e7eb;">
+                <span style="background-color: #fee2e2; color: #991b1b; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px;">
+                  ${grievance_category}
+                </span>
+              </td>
+            </tr>
+          </table>
+
+          <h3 style="margin-bottom: 10px;">Detailed Description:</h3>
+          <div style="background-color: #f9fafb; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; white-space: pre-wrap;">
             ${message}
           </div>
           
-          <p style="margin-top: 30px; font-size: 12px; color: #9ca3af;">
-            *This email was securely generated via the KUSGC Grievance Portal. Do not forward this email to unauthorized personnel.*
+          <p style="margin-top: 30px; font-size: 12px; color: #6b7280; text-align: center;">
+            This email was automatically generated from the KUSGC Grievance Portal.
           </p>
         </div>
       `,
@@ -45,9 +65,14 @@ export async function POST(request: Request) {
     // Send the email
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ success: true }, { status: 200 });
+    // Tell the frontend it was a success
+    return NextResponse.json({ success: true, message: "Email sent successfully" });
+
   } catch (error) {
-    console.error("Error sending grievance email:", error);
-    return NextResponse.json({ error: 'Failed to securely send message' }, { status: 500 });
+    console.error("Email sending error:", error);
+    return NextResponse.json(
+      { success: false, error: "Failed to send email" },
+      { status: 500 }
+    );
   }
 }

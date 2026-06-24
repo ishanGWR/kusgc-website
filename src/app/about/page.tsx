@@ -29,7 +29,7 @@ const advisors = [
     name: "Mr. Shivendra Shrivastava",
     role: "Faculty Advisor",
     title: "KUSGC",
-    image: "/about/Shivinsir.JPG", 
+    image: "/about/Shivinsir.jpg", 
     gradient: "from-purple-500 to-indigo-600",
     glow: "rgba(168, 85, 247, 0.4)",
   },

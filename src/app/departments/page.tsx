@@ -10,7 +10,7 @@ const committeesData = [
   {
     id: "tech",
     name: "Tech",
-    image: "/commities/logo/tech.jpg",
+    image: "/commities/logo/Tech.jpg",
     description: "Building the digital infrastructure, managing web platforms, and driving technological innovation across the campus.",
     themeColor: "text-cyan-400",
     borderColor: "border-cyan-400",
@@ -31,7 +31,7 @@ const committeesData = [
   {
     id: "operation",
     name: "Operation",
-    image: "/commities/logo/operation.jpg",
+    image: "/commities/logo/Operation.jpg",
     description: "The backbone of the council. Handling logistics, event execution, and ensuring seamless day-to-day management.",
     themeColor: "text-indigo-400",
     borderColor: "border-indigo-400",

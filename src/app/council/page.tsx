@@ -61,7 +61,7 @@ const councilData = [
         // EXAMPLE: Added your photo path here!
         { role: "Tech ", name: "Ishan Chouhan", dept: "UIT", image: "/council/Ishan.jpg", insta:"ishann_412" },
         { role: "Tech  ", name: "Maun", dept: "UIT", image: "/council/Maun.jpg" ,insta:"maun_glorious" },
-        { role: "Operation ", name: "Maahi Agarwal", dept: "UID", image: "/council/Maahi.jpg", insta:"maahi.agr" },
+        { role: "Operation ", name: "Maahi Agrawal", dept: "UID", image: "/council/Maahi.jpg", insta:"maahi.agr" },
         { role: "Operation ", name: "Vanshika Gupta", dept: "UID", image: "/council/Vanshika.jpg", insta:"vanshikagupta.22" },
         { role: "Creative ", name: "Kanishk rathi", dept: "UID", image: "/council/Kanishk.jpg" ,insta:"kanishkrathi" },
         { role: "Creative ", name: "Amatrra Adal sengupta", dept: "UID", image: "/council/Amatrra.jpg" ,insta:"23_amatrra_" },

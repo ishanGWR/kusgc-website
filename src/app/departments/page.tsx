@@ -299,7 +299,7 @@ const committeesData = [
     borderColor: "border-pink-400",
     shadowColor: "shadow-[0_0_15px_rgba(244,114,182,0.4)]",
     glow: "rgba(244, 114, 182, 0.5)",
-    heads: [{ name: "Sehaj Saluja", image: "/council/Sehaj.jpg", insta: "sehaj.saluja" },
+    heads: [{ name: "Sehaj Saluja", image: "/council/Sehaj.jpg", insta: "sehajssaluja" },
             { name: "Mansoor Anas ", image: "/council/Mansoor.jpg", insta: "mansooranas" }],
     members: [
       { name: "Sara Gupta",  image: "/commities/radio/Sara.jpg", insta: "sara.gupta2706" },

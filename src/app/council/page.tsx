@@ -54,7 +54,7 @@ const councilData = [
     ]
   },
   {
-    section: "General Secretaries",
+    section: "General   Secretaries",
     hideHeading: false,
     rows: [
       [

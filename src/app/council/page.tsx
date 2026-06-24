@@ -96,7 +96,7 @@ const councilData = [
         { role: "UID ", name: "Simanthi wable", dept: "UID", image: "/council/Simanthi.jpg" , insta:"simii.07_"},
         { role: "UID ", name: "Isha Chopra", dept: "UID", image: "/council/Isha.jpg" , insta:"ish_ishx"},
         { role: "UIT ", name: "Sejpalsinh Rayjada", dept: "UIT", image: "/council/Sejpal.jpg" , insta:"sejpaalrayjada"},
-        { role: "UIT ", name: "Vansh Thakkar", dept: "UIT", image: "/council/vansht.jpg" , insta:"thakkarvansh18"},
+        { role: "UIT ", name: "Vansh Thakkar", dept: "UIT", image: "/council/Vansht.jpg" , insta:"thakkarvansh18"},
         { role: "UIT ", name: "Jugal Prajapati", dept: "UIT", image: "/council/Jugal.jpg" , insta:"jugal_jpeg"},
         { role: "UIM ", name: "Milan desai", dept: "UIM", image: "/council/Milan.jpg" , insta:"f1.milan" },
         { role: "UIM ", name: "Smit Patel", dept: "UIM", image: "/council/Smit.jpg" , insta:"smaikk___" },

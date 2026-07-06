@@ -10,12 +10,12 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl">
         
         {/* Subtitle with slight cyan glow */}
-        <p className="mb-6 text-sm uppercase tracking-[0.35em] text-cyan-300 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
-        
+        <p className="mb-6 text-xs sm:text-sm uppercase tracking-[0.3em] sm:tracking-[0.35em] text-cyan-300 font-bold drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
+          The Apex Student Body
         </p>
 
         {/* Main Title with massive text drop-shadow for neon effect */}
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight text-white drop-shadow-lg">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-tight text-white drop-shadow-lg tracking-tight">
           Karnavati University
           <span className="block mt-2 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent pb-2 drop-shadow-[0_0_25px_rgba(59,130,246,0.6)]">
             Student Governing Council

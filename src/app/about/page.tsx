@@ -10,7 +10,7 @@ const topLeadership = [
     name: "Mr. Ritesh Hada",
     role: "Chief Patron",
     title: "President, Karnavati University",
-    image: "/about/Riteshsir.jpg", 
+    image: "/about/Riteshsir.jpg",
     gradient: "from-amber-400 to-yellow-600",
     glow: "rgba(251, 191, 36, 0.4)",
   },
@@ -18,7 +18,7 @@ const topLeadership = [
     name: "Dr. Tariq Ali Saiyed",
     role: "Patron",
     title: "Registrar, Karnavati University",
-    image: "/about/Tariqsir.jpg", 
+    image: "/about/Tariqsir.jpg",
     gradient: "from-blue-400 to-cyan-600",
     glow: "rgba(56, 189, 248, 0.4)",
   }
@@ -29,7 +29,7 @@ const advisors = [
     name: "Mr. Shivendra Shrivastava",
     role: "Faculty Advisor",
     title: "KUSGC",
-    image: "/about/Shivinsir.jpg", 
+    image: "/about/Shivinsir.jpg",
     gradient: "from-purple-500 to-indigo-600",
     glow: "rgba(168, 85, 247, 0.4)",
   },
@@ -37,7 +37,7 @@ const advisors = [
     name: "Mr. Karan Kalia",
     role: "Faculty Advisor",
     title: "KUSGC",
-    image: "/about/Karansir.jpg", 
+    image: "/about/Karansir.jpg",
     gradient: "from-fuchsia-500 to-pink-600",
     glow: "rgba(236, 72, 153, 0.4)",
   },
@@ -45,7 +45,7 @@ const advisors = [
     name: "Mr. Param Lodaya",
     role: "Chief Advisor",
     title: "KUSGC",
-    image: "", 
+    image: "/about/Parambhayya.jpg",
     gradient: "from-emerald-400 to-teal-600",
     glow: "rgba(52, 211, 153, 0.4)",
   }
@@ -53,20 +53,23 @@ const advisors = [
 
 // Reusable Profile Card Component
 const ProfileCard = ({ person, isLarge = false }: { person: any, isLarge?: boolean }) => (
-  <div 
+  <div
     className="group relative flex flex-col rounded-3xl border border-white/10 bg-zinc-900/50 backdrop-blur-md overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:border-white/30"
     style={{ boxShadow: `0 0 0px ${person.glow}` }}
     onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 10px 40px ${person.glow}`}
     onMouseLeave={(e) => e.currentTarget.style.boxShadow = `0 0 0px ${person.glow}`}
   >
     {/* Photo Area */}
-    <div className={`relative w-full ${isLarge ? 'h-72' : 'h-64'} bg-gradient-to-br ${person.gradient} overflow-hidden flex items-center justify-center`}>
+    <div className={`relative w-full ${isLarge ? 'h-72 sm:h-80' : 'h-64 sm:h-72'} bg-gradient-to-br ${person.gradient} overflow-hidden flex items-center justify-center`}>
       {person.image ? (
-        <img 
-          src={person.image} 
-          alt={person.name} 
+        <img
+          src={person.image}
+          alt={person.name}
+          loading="lazy"
+          decoding="async"
+          onError={(e) => { e.currentTarget.style.display = 'none'; }}
           /* FIXED: Removed opacity, mix-blend, and grayscale classes so the photo shows in its original colors */
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
       ) : (
         <>
@@ -77,7 +80,7 @@ const ProfileCard = ({ person, isLarge = false }: { person: any, isLarge?: boole
           </svg>
         </>
       )}
-      
+
       {/* Role Badge */}
       <div className="absolute top-4 right-4 bg-black/80 backdrop-blur-md border border-white/10 px-4 py-1.5 rounded-lg text-center transform transition-transform duration-500 group-hover:scale-105 z-10">
         <span className={`block text-xs uppercase tracking-widest bg-clip-text text-transparent bg-gradient-to-r ${person.gradient} font-bold whitespace-nowrap`}>
@@ -104,7 +107,7 @@ export default function AboutPage() {
       <Navbar />
 
       <main className="relative min-h-screen bg-black text-white overflow-hidden pb-32">
-        
+
         {/* Dynamic Background */}
         <div className="fixed inset-0 w-full h-full overflow-hidden pointer-events-none z-0">
           <AnimatedOrb />
@@ -127,10 +130,10 @@ export default function AboutPage() {
         <section className="relative z-10 max-w-5xl mx-auto px-6 mb-32">
           <div className="relative p-1 rounded-3xl bg-gradient-to-b from-white/10 to-transparent">
             <div className="bg-black/80 backdrop-blur-2xl rounded-[23px] p-8 md:p-16 border border-white/5 shadow-2xl">
-              
+
               {/* Decorative Quotes */}
               <div className="absolute top-8 left-8 text-white/5 text-8xl font-serif select-none pointer-events-none">"</div>
-              
+
               <div className="relative z-10">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 tracking-wide">
                   Empowering Students, Engineering Experiences.

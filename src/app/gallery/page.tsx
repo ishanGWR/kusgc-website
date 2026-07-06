@@ -7,12 +7,12 @@ import AnimatedOrb from "@/app/components/AnimatedOrb";
 
 // GALLERY DATA (Removed categories, added 8 items for perfect 4-column rows)
 const galleryData = [
-  { id: 1, src: "/event gallery/Fresher.jpg", title: "Fresher 2k24" },
-  { id: 2, src: "/event gallery/Holi.jpg", title: "Holi Celebration" },
-  { id: 3, src: "/event gallery/Coffe.jpg", title: "Coffe rave party" },
-  { id: 4, src: "/event gallery/Janmasthmi.jpg", title: "Janmasthmi Celebration" },
-  { id: 5, src: "/event gallery/Djnight.jpg", title: "Djnight" },
-  { id: 6, src: "/event gallery/KUGM.jpg", title: "KUGM" }
+  { id: 1, src: "/events/Fresherx.jpg", title: "Fresher 2k24" },
+  { id: 2, src: "/events/Holi.JPG", title: "Holi Celebration" },
+  { id: 3, src: "/events/Uid.JPG", title: "UID Celebration" },
+  { id: 4, src: "/events/Janmasthmi.JPG", title: "Janmasthmi Celebration" },
+  { id: 5, src: "/events/Djnight.jpg", title: "Dj Night" },
+  { id: 6, src: "/events/KUGM.JPG", title: "KUGM Garba" }
 ];
 
 export default function GalleryPage() {
@@ -60,8 +60,10 @@ export default function GalleryPage() {
           <div className="group relative w-full h-[50vh] md:h-[70vh] rounded-3xl overflow-hidden border border-white/10 mb-6 cursor-pointer shadow-[0_0_30px_rgba(34,211,238,0.1)] hover:shadow-[0_0_50px_rgba(34,211,238,0.3)] hover:border-cyan-500/50 transition-all duration-500">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
             <img 
-              src="/event gallery/Fresherx.jpg" 
+              src="/events/Fresherx.jpg" 
               alt="Council 2K24 - 2K25" 
+              loading="lazy"
+              decoding="async"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               onError={(e) => { (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1523580494112-071dcb849ae4?q=80&w=2000&auto=format&fit=crop"; }}
             />
@@ -88,14 +90,16 @@ export default function GalleryPage() {
                 <img 
                   src={img.src} 
                   alt={img.title} 
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover relative z-10 transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=800&auto=format&fit=crop";
                   }}
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 flex flex-col justify-end p-6">
-                  <h3 className="text-xl font-bold text-white tracking-tight">{img.title}</h3>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 z-20 flex flex-col justify-end p-6">
+                  <h3 className="text-lg sm:text-xl font-bold text-white tracking-tight">{img.title}</h3>
                 </div>
               </div>
             ))}
